@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D6AE10112BAF0B3B00C27079 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE10102BAF0B3B00C27079 /* AppDelegate.swift */; };
+		D6AE10132BAF0B3B00C27079 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE10122BAF0B3B00C27079 /* SceneDelegate.swift */; };
+		D6AE10152BAF0B3B00C27079 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE10142BAF0B3B00C27079 /* ViewController.swift */; };
+		D6AE10182BAF0B3B00C27079 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6AE10162BAF0B3B00C27079 /* Main.storyboard */; };
+		D6AE101A2BAF0B3C00C27079 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6AE10192BAF0B3C00C27079 /* Assets.xcassets */; };
+		D6AE101D2BAF0B3C00C27079 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6AE101B2BAF0B3C00C27079 /* LaunchScreen.storyboard */; };
+		D6AE10282BAF0B3C00C27079 /* DormDashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE10272BAF0B3C00C27079 /* DormDashTests.swift */; };
+		D6AE10322BAF0B3C00C27079 /* DormDashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE10312BAF0B3C00C27079 /* DormDashUITests.swift */; };
+		D6AE10342BAF0B3C00C27079 /* DormDashUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE10332BAF0B3C00C27079 /* DormDashUITestsLaunchTests.swift */; };
+		D6AE10412BAF0CB800C27079 /* Balance in Resources */ = {isa = PBXBuildFile; fileRef = D6AE10402BAF0CB800C27079 /* Balance */; };
+		D6AE10432BAF114B00C27079 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6AE10422BAF114B00C27079 /* Poppins-SemiBold.ttf */; };
+		D6AE10452BAF132700C27079 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6AE10442BAF132700C27079 /* Poppins-Medium.ttf */; };
+		D6AE10832BAF1B4000C27079 /* customTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE10822BAF1B4000C27079 /* customTableViewCell.swift */; };
+		D6AE10852BAF26FE00C27079 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE10842BAF26FE00C27079 /* secondViewController.swift */; };
+		D6AE10872BAF27FA00C27079 /* secondTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE10862BAF27FA00C27079 /* secondTableViewCell.swift */; };
+		D6AE10892BAF2EF200C27079 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE10882BAF2EF200C27079 /* thirdViewController.swift */; };
+		D6AE108B2BAF5E5900C27079 /* fourthTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE108A2BAF5E5900C27079 /* fourthTableViewCell.swift */; };
+		D6AE108D2BAF5EBD00C27079 /* fourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AE108C2BAF5EBD00C27079 /* fourthViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6AE10242BAF0B3C00C27079 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6AE10052BAF0B3B00C27079 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6AE100C2BAF0B3B00C27079;
+			remoteInfo = DormDash;
+		};
+		D6AE102E2BAF0B3C00C27079 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6AE10052BAF0B3B00C27079 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6AE100C2BAF0B3B00C27079;
+			remoteInfo = DormDash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D6AE100D2BAF0B3B00C27079 /* DormDash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DormDash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6AE10102BAF0B3B00C27079 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6AE10122BAF0B3B00C27079 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		D6AE10142BAF0B3B00C27079 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D6AE10172BAF0B3B00C27079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D6AE10192BAF0B3C00C27079 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6AE101C2BAF0B3C00C27079 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D6AE101E2BAF0B3C00C27079 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D6AE10232BAF0B3C00C27079 /* DormDashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DormDashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6AE10272BAF0B3C00C27079 /* DormDashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DormDashTests.swift; sourceTree = "<group>"; };
+		D6AE102D2BAF0B3C00C27079 /* DormDashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DormDashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6AE10312BAF0B3C00C27079 /* DormDashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DormDashUITests.swift; sourceTree = "<group>"; };
+		D6AE10332BAF0B3C00C27079 /* DormDashUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DormDashUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6AE10402BAF0CB800C27079 /* Balance */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Balance; sourceTree = "<group>"; };
+		D6AE10422BAF114B00C27079 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		D6AE10442BAF132700C27079 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		D6AE10822BAF1B4000C27079 /* customTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customTableViewCell.swift; sourceTree = "<group>"; };
+		D6AE10842BAF26FE00C27079 /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		D6AE10862BAF27FA00C27079 /* secondTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondTableViewCell.swift; sourceTree = "<group>"; };
+		D6AE10882BAF2EF200C27079 /* thirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
+		D6AE108A2BAF5E5900C27079 /* fourthTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthTableViewCell.swift; sourceTree = "<group>"; };
+		D6AE108C2BAF5EBD00C27079 /* fourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fourthViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6AE100A2BAF0B3B00C27079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AE10202BAF0B3C00C27079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AE102A2BAF0B3C00C27079 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D6AE10042BAF0B3B00C27079 = {
+			isa = PBXGroup;
+			children = (
+				D6AE100F2BAF0B3B00C27079 /* DormDash */,
+				D6AE10262BAF0B3C00C27079 /* DormDashTests */,
+				D6AE10302BAF0B3C00C27079 /* DormDashUITests */,
+				D6AE100E2BAF0B3B00C27079 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6AE100E2BAF0B3B00C27079 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6AE100D2BAF0B3B00C27079 /* DormDash.app */,
+				D6AE10232BAF0B3C00C27079 /* DormDashTests.xctest */,
+				D6AE102D2BAF0B3C00C27079 /* DormDashUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6AE100F2BAF0B3B00C27079 /* DormDash */ = {
+			isa = PBXGroup;
+			children = (
+				D6AE10422BAF114B00C27079 /* Poppins-SemiBold.ttf */,
+				D6AE10442BAF132700C27079 /* Poppins-Medium.ttf */,
+				D6AE10102BAF0B3B00C27079 /* AppDelegate.swift */,
+				D6AE10822BAF1B4000C27079 /* customTableViewCell.swift */,
+				D6AE10862BAF27FA00C27079 /* secondTableViewCell.swift */,
+				D6AE10122BAF0B3B00C27079 /* SceneDelegate.swift */,
+				D6AE10142BAF0B3B00C27079 /* ViewController.swift */,
+				D6AE10842BAF26FE00C27079 /* secondViewController.swift */,
+				D6AE10162BAF0B3B00C27079 /* Main.storyboard */,
+				D6AE108A2BAF5E5900C27079 /* fourthTableViewCell.swift */,
+				D6AE108C2BAF5EBD00C27079 /* fourthViewController.swift */,
+				D6AE10882BAF2EF200C27079 /* thirdViewController.swift */,
+				D6AE10192BAF0B3C00C27079 /* Assets.xcassets */,
+				D6AE10402BAF0CB800C27079 /* Balance */,
+				D6AE101B2BAF0B3C00C27079 /* LaunchScreen.storyboard */,
+				D6AE101E2BAF0B3C00C27079 /* Info.plist */,
+			);
+			path = DormDash;
+			sourceTree = "<group>";
+		};
+		D6AE10262BAF0B3C00C27079 /* DormDashTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6AE10272BAF0B3C00C27079 /* DormDashTests.swift */,
+			);
+			path = DormDashTests;
+			sourceTree = "<group>";
+		};
+		D6AE10302BAF0B3C00C27079 /* DormDashUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6AE10312BAF0B3C00C27079 /* DormDashUITests.swift */,
+				D6AE10332BAF0B3C00C27079 /* DormDashUITestsLaunchTests.swift */,
+			);
+			path = DormDashUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6AE100C2BAF0B3B00C27079 /* DormDash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6AE10372BAF0B3C00C27079 /* Build configuration list for PBXNativeTarget "DormDash" */;
+			buildPhases = (
+				D6AE10092BAF0B3B00C27079 /* Sources */,
+				D6AE100A2BAF0B3B00C27079 /* Frameworks */,
+				D6AE100B2BAF0B3B00C27079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DormDash;
+			productName = DormDash;
+			productReference = D6AE100D2BAF0B3B00C27079 /* DormDash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6AE10222BAF0B3C00C27079 /* DormDashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6AE103A2BAF0B3C00C27079 /* Build configuration list for PBXNativeTarget "DormDashTests" */;
+			buildPhases = (
+				D6AE101F2BAF0B3C00C27079 /* Sources */,
+				D6AE10202BAF0B3C00C27079 /* Frameworks */,
+				D6AE10212BAF0B3C00C27079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6AE10252BAF0B3C00C27079 /* PBXTargetDependency */,
+			);
+			name = DormDashTests;
+			productName = DormDashTests;
+			productReference = D6AE10232BAF0B3C00C27079 /* DormDashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6AE102C2BAF0B3C00C27079 /* DormDashUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6AE103D2BAF0B3C00C27079 /* Build configuration list for PBXNativeTarget "DormDashUITests" */;
+			buildPhases = (
+				D6AE10292BAF0B3C00C27079 /* Sources */,
+				D6AE102A2BAF0B3C00C27079 /* Frameworks */,
+				D6AE102B2BAF0B3C00C27079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6AE102F2BAF0B3C00C27079 /* PBXTargetDependency */,
+			);
+			name = DormDashUITests;
+			productName = DormDashUITests;
+			productReference = D6AE102D2BAF0B3C00C27079 /* DormDashUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6AE10052BAF0B3B00C27079 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					D6AE100C2BAF0B3B00C27079 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					D6AE10222BAF0B3C00C27079 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = D6AE100C2BAF0B3B00C27079;
+					};
+					D6AE102C2BAF0B3C00C27079 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = D6AE100C2BAF0B3B00C27079;
+					};
+				};
+			};
+			buildConfigurationList = D6AE10082BAF0B3B00C27079 /* Build configuration list for PBXProject "DormDash" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6AE10042BAF0B3B00C27079;
+			productRefGroup = D6AE100E2BAF0B3B00C27079 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6AE100C2BAF0B3B00C27079 /* DormDash */,
+				D6AE10222BAF0B3C00C27079 /* DormDashTests */,
+				D6AE102C2BAF0B3C00C27079 /* DormDashUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6AE100B2BAF0B3B00C27079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6AE10432BAF114B00C27079 /* Poppins-SemiBold.ttf in Resources */,
+				D6AE101D2BAF0B3C00C27079 /* LaunchScreen.storyboard in Resources */,
+				D6AE10412BAF0CB800C27079 /* Balance in Resources */,
+				D6AE10452BAF132700C27079 /* Poppins-Medium.ttf in Resources */,
+				D6AE101A2BAF0B3C00C27079 /* Assets.xcassets in Resources */,
+				D6AE10182BAF0B3B00C27079 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AE10212BAF0B3C00C27079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AE102B2BAF0B3C00C27079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6AE10092BAF0B3B00C27079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6AE10152BAF0B3B00C27079 /* ViewController.swift in Sources */,
+				D6AE10892BAF2EF200C27079 /* thirdViewController.swift in Sources */,
+				D6AE10872BAF27FA00C27079 /* secondTableViewCell.swift in Sources */,
+				D6AE10112BAF0B3B00C27079 /* AppDelegate.swift in Sources */,
+				D6AE10832BAF1B4000C27079 /* customTableViewCell.swift in Sources */,
+				D6AE108D2BAF5EBD00C27079 /* fourthViewController.swift in Sources */,
+				D6AE10852BAF26FE00C27079 /* secondViewController.swift in Sources */,
+				D6AE10132BAF0B3B00C27079 /* SceneDelegate.swift in Sources */,
+				D6AE108B2BAF5E5900C27079 /* fourthTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AE101F2BAF0B3C00C27079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6AE10282BAF0B3C00C27079 /* DormDashTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6AE10292BAF0B3C00C27079 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6AE10342BAF0B3C00C27079 /* DormDashUITestsLaunchTests.swift in Sources */,
+				D6AE10322BAF0B3C00C27079 /* DormDashUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6AE10252BAF0B3C00C27079 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6AE100C2BAF0B3B00C27079 /* DormDash */;
+			targetProxy = D6AE10242BAF0B3C00C27079 /* PBXContainerItemProxy */;
+		};
+		D6AE102F2BAF0B3C00C27079 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6AE100C2BAF0B3B00C27079 /* DormDash */;
+			targetProxy = D6AE102E2BAF0B3C00C27079 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D6AE10162BAF0B3B00C27079 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6AE10172BAF0B3B00C27079 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D6AE101B2BAF0B3C00C27079 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6AE101C2BAF0B3C00C27079 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D6AE10352BAF0B3C00C27079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6AE10362BAF0B3C00C27079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D6AE10382BAF0B3C00C27079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M55CBU2939;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DormDash/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Reboot.DormDash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6AE10392BAF0B3C00C27079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M55CBU2939;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DormDash/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Reboot.DormDash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6AE103B2BAF0B3C00C27079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RV6TJ327S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Reboot.DormDashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DormDash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DormDash";
+			};
+			name = Debug;
+		};
+		D6AE103C2BAF0B3C00C27079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RV6TJ327S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Reboot.DormDashTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DormDash.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DormDash";
+			};
+			name = Release;
+		};
+		D6AE103E2BAF0B3C00C27079 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RV6TJ327S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Reboot.DormDashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DormDash;
+			};
+			name = Debug;
+		};
+		D6AE103F2BAF0B3C00C27079 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RV6TJ327S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Reboot.DormDashUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DormDash;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6AE10082BAF0B3B00C27079 /* Build configuration list for PBXProject "DormDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6AE10352BAF0B3C00C27079 /* Debug */,
+				D6AE10362BAF0B3C00C27079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6AE10372BAF0B3C00C27079 /* Build configuration list for PBXNativeTarget "DormDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6AE10382BAF0B3C00C27079 /* Debug */,
+				D6AE10392BAF0B3C00C27079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6AE103A2BAF0B3C00C27079 /* Build configuration list for PBXNativeTarget "DormDashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6AE103B2BAF0B3C00C27079 /* Debug */,
+				D6AE103C2BAF0B3C00C27079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6AE103D2BAF0B3C00C27079 /* Build configuration list for PBXNativeTarget "DormDashUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6AE103E2BAF0B3C00C27079 /* Debug */,
+				D6AE103F2BAF0B3C00C27079 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6AE10052BAF0B3B00C27079 /* Project object */;
+}
